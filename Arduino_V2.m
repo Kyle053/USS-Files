@@ -378,6 +378,8 @@ function [] = Analyse_AngleData(AngleData)
     title = 15 * (angle - 1);
     title = "Angle of " + num2str(title) + " degrees";
     set(fig, 'Name', title)
+    xlabel("Real Distances / m")
+    ylabel("Measured Distances / m")
 end
 
 main();
